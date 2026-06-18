@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salt Muse Swimwear | Join the Waitlist</title>
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Google Fonts matching your brand's elegant typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <!-- Canvas Confetti for Magical Signup Celebration -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+  <style>
+    body {
+      font-family: 'DM Sans', sans-serif;
+    }
+    .font-logo {
+      font-family: 'Cinzel', serif;
+    }
+    /* Ambient brand background matching your logo's exact soft pastel pink, teal-turquoise waves, and sunset hues */
+    .bg-gradient-brand {
+      background: linear-gradient(135deg, #fdf2f4 0%, #fce7f3 40%, #e0f2fe 100%);
+    }
+    .glass-card {
+      background: rgba(255, 255, 255, 0.45);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, 0.6);
+    }
+    .input-field {
+      background: rgba(255, 255, 255, 0.85);
+      border: 1px solid rgba(73, 151, 151, 0.2);
+      color: #1f3e3f;
+      transition: all 0.25s ease;
+    }
+    .input-field:focus {
+      background: #ffffff;
+      border-color: #499797;
+      box-shadow: 0 0 0 4px rgba(73, 151, 151, 0.15);
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 6px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-track {
+      background: rgba(0, 0, 0, 0.03);
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: rgba(73, 151, 151, 0.25);
+      border-radius: 10px;
+    }
+    /* Logo container shadow for visual pop */
+    .logo-shadow {
+      box-shadow: 0 10px 25px -5px rgba(244, 114, 182, 0.15), 0 8px 10px -6px rgba(73, 151, 151, 0.1);
+    }
+  </style>
+</head>
+<body class="bg-gradient-brand min-h-screen flex flex-col justify-between text-slate-800 overflow-x-hidden relative selection:bg-pink-100 selection:text-pink-900">
+
+  <!-- Aesthetic Ambient Light Bursts -->
+  <div class="absolute top-[5%] left-[-10%] w-[50vw] h-[50vw] rounded-full bg-pink-200/30 blur-3xl pointer-events-none animate-pulse"></div>
+  <div class="absolute bottom-[5%] right-[-10%] w-[50vw] h-[50vw] rounded-full bg-teal-200/25 blur-3xl pointer-events-none"></div>
+
+  <!-- Top Header Navigation -->
+  <header class="w-full max-w-7xl mx-auto px-6 py-5 flex justify-between items-center z-10">
+    <div class="flex items-center gap-3">
+      <!-- Salt Muse Logo -->
+      <svg class="w-10 h-10" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- Background Circle -->
+        <circle cx="100" cy="100" r="100" fill="#fde8f0"/>
+        
+        <!-- Sun rays -->
+        <g stroke="#c9a961" stroke-width="2.5" stroke-linecap="round">
+          <line x1="100" y1="20" x2="100" y2="35"/>
+          <line x1="100" y1="165" x2="100" y2="180"/>
+          <line x1="20" y1="100" x2="35" y2="100"/>
+          <line x1="165" y1="100" x2="180" y2="100"/>
+          <line x1="35" y1="35" x2="46" y2="46"/>
+          <line x1="154" y1="154" x2="165" y2="165"/>
+          <line x1="165" y1="35" x2="154" y2="46"/>
+          <line x1="46" y1="154" x2="35" y2="165"/>
+        </g>
+        
+        <!-- Additional sun rays detail -->
+        <g stroke="#d4af37" stroke-width="2" stroke-linecap="round" opacity="0.7">
+          <line x1="100" y1="25" x2="100" y2="32"/>
+          <line x1="75" y1="32" x2="80" y2="38"/>
+          <line x1="125" y1="32" x2="120" y2="38"/>
+        </g>
+        
+        <!-- Teal waves -->
+        <path d="M 50 100 Q 70 85, 90 95 T 130 100" stroke="#4a9b9e" stroke-width="8" fill="none" stroke-linecap="round"/>
+        <path d="M 45 115 Q 65 100, 85 110 T 125 115" stroke="#4a9b9e" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.8"/>
+        
+        <!-- Pink hibiscus flower -->
+        <g transform="translate(130, 80)">
+          <!-- Petals -->
+          <ellipse cx="0" cy="-12" rx="6" ry="14" fill="#f472b6"/>
+          <ellipse cx="10" cy="-8" rx="6" ry="14" fill="#f87bb2"/>
+          <ellipse cx="10" cy="8" rx="6" ry="14" fill="#f472b6"/>
+          <ellipse cx="-10" cy="8" rx="6" ry="14" fill="#f87bb2"/>
+          <ellipse cx="-10" cy="-8" rx="6" ry="14" fill="#f472b6"/>
+          <!-- Center -->
+          <circle cx="0" cy="0" r="5" fill="#c9a961"/>
+        </g>
+      </svg>
+      <span class="font-logo text-lg sm:text-xl font-semibold tracking-[0.25em] text-teal-950 uppercase">Salt Muse</span>
+    </div>
+    
+    <!-- Secret Admin Portal Trigger -->
+    <button onclick="toggleAdminPanel()" class="bg-white/60 hover:bg-white/95 text-teal-950 px-4 py-1.5 rounded-full text-xs font-semibold tracking-wider uppercase transition shadow-sm border border-black/5 flex items-center gap-1.5">
+      <i data-lucide="database" class="w-3.5 h-3.5 text-teal-600"></i>
+      View List
+    </button>
+  </header>
+
+  <!-- Main Showcase & Form -->
+  <main class="flex-grow flex items-center justify-center px-4 py-8 z-10">
+    <div class="w-full max-w-lg">
+      
+      <!-- Premium Glass Form Card -->
+      <div id="signup-card" class="glass-card rounded-[2.5rem] p-8 sm:p-10 shadow-2xl shadow-pink-950/5 relative overflow-hidden">
+        
+        <!-- Interactive High-converting Invitation Tag -->
+        <div class="flex justify-center mb-6">
+          <div class="inline-flex items-center gap-2 bg-white/80 border border-pink-100 text-pink-600 text-[10px] px-4 py-1.5 rounded-full uppercase tracking-widest font-bold shadow-sm">
+            <span class="w-2 h-2 rounded-full bg-teal-500 animate-ping"></span>
+            Private Summer Drops 2026
+          </div>
+        </div>
+
+        <!-- Crisp Logo Showcase Centerpiece -->
+        <div class="flex flex-col items-center text-center mb-8">
+          <div class="w-36 h-36 bg-white rounded-full p-2 border border-pink-100/80 logo-shadow relative overflow-hidden transition-transform duration-500 hover:scale-[1.03]">
+            <!-- Salt Muse SVG Logo -->
+            <svg class="w-full h-full" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <!-- Background Circle -->
+              <circle cx="100" cy="100" r="100" fill="#fde8f0"/>
+              
+              <!-- Sun rays -->
+              <g stroke="#c9a961" stroke-width="2.5" stroke-linecap="round">
+                <line x1="100" y1="20" x2="100" y2="35"/>
+                <line x1="100" y1="165" x2="100" y2="180"/>
+                <line x1="20" y1="100" x2="35" y2="100"/>
+                <line x1="165" y1="100" x2="180" y2="100"/>
+                <line x1="35" y1="35" x2="46" y2="46"/>
+                <line x1="154" y1="154" x2="165" y2="165"/>
+                <line x1="165" y1="35" x2="154" y2="46"/>
+                <line x1="46" y1="154" x2="35" y2="165"/>
+              </g>
+              
+              <!-- Additional sun rays detail -->
+              <g stroke="#d4af37" stroke-width="2" stroke-linecap="round" opacity="0.7">
+                <line x1="100" y1="25" x2="100" y2="32"/>
+                <line x1="75" y1="32" x2="80" y2="38"/>
+                <line x1="125" y1="32" x2="120" y2="38"/>
+              </g>
+              
+              <!-- Teal waves -->
+              <path d="M 50 100 Q 70 85, 90 95 T 130 100" stroke="#4a9b9e" stroke-width="8" fill="none" stroke-linecap="round"/>
+              <path d="M 45 115 Q 65 100, 85 110 T 125 115" stroke="#4a9b9e" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.8"/>
+              
+              <!-- Pink hibiscus flower -->
+              <g transform="translate(130, 80)">
+                <!-- Petals -->
+                <ellipse cx="0" cy="-12" rx="6" ry="14" fill="#f472b6"/>
+                <ellipse cx="10" cy="-8" rx="6" ry="14" fill="#f87bb2"/>
+                <ellipse cx="10" cy="8" rx="6" ry="14" fill="#f472b6"/>
+                <ellipse cx="-10" cy="8" rx="6" ry="14" fill="#f87bb2"/>
+                <ellipse cx="-10" cy="-8" rx="6" ry="14" fill="#f472b6"/>
+                <!-- Center -->
+                <circle cx="0" cy="0" r="5" fill="#c9a961"/>
+              </g>
+            </svg>
+          </div>
+          
+          <!-- Subtitle Tagline directly from your logo -->
+          <p class="text-[9px] sm:text-[10px] tracking-[0.25em] font-bold text-amber-700/90 uppercase mt-2">Where Summer Lives Forever</p>
+        </div>
+
+        <!-- Custom Divider -->
+        <div class="w-full border-t border-pink-200/60 my-6 relative flex justify-center">
+          <span class="bg-pink-50/90 border border-pink-100/50 px-4 py-0.5 rounded-full text-[9px] tracking-[0.2em] text-teal-900 uppercase absolute top-[-11px] font-bold">VIP Waitlist</span>
+        </div>
+        
+        <p class="text-slate-600 text-center text-xs sm:text-sm mb-6 leading-relaxed px-2">
+          Secure early access to our limited-run swimwear collection. Registered muses receive priority sizing and private launch links.
+        </p>
+
+        <!-- Waitlist Interactive Form -->
+        <form id="waitlist-form" onsubmit="handleSignup(event)" class="space-y-4">
+          
+          <!-- Full Name Input -->
+          <div>
+            <label class="block text-[10px] font-bold tracking-wider uppercase text-teal-950/80 mb-1.5 ml-1">Your Name</label>
+            <div class="relative">
+              <span class="absolute inset-y-0 left-0 pl-3.5 flex items-center text-teal-700/60">
+                <i data-lucide="user" class="w-4 h-4"></i>
+              </span>
+              <input type="text" id="name" required placeholder="e.g. Diya Sharma" class="w-full input-field rounded-2xl py-3 pl-11 pr-4 text-sm outline-none">
+            </div>
+          </div>
+
+          <!-- Email Input -->
+          <div>
+            <label class="block text-[10px] font-bold tracking-wider uppercase text-teal-950/80 mb-1.5 ml-1">Email Address</label>
+            <div class="relative">
+              <span class="absolute inset-y-0 left-0 pl-3.5 flex items-center text-teal-700/60">
+                <i data-lucide="mail" class="w-4 h-4"></i>
+              </span>
+              <input type="email" id="email" required placeholder="diya@example.com" class="w-full input-field rounded-2xl py-3 pl-11 pr-4 text-sm outline-none">
+            </div>
+          </div>
+
+          <!-- Phone / WhatsApp Input (Specifically tailored for India) -->
+          <div>
+            <label class="block text-[10px] font-bold tracking-wider uppercase text-teal-950/80 mb-1.5 ml-1">WhatsApp Number (For instant launch notifications)</label>
+            <div class="relative">
+              <span class="absolute inset-y-0 left-0 pl-3.5 flex items-center text-teal-950/80 text-sm font-bold select-none">
+                +91
+              </span>
+              <input type="tel" id="whatsapp" pattern="[6-9][0-9]{9}" required placeholder="98765 43210" class="w-full input-field rounded-2xl py-3 pl-12 pr-4 text-sm outline-none">
+            </div>
+          </div>
+
+          <!-- Sizing Selection Grid with smooth feedback states -->
+          <div>
+            <label class="block text-[10px] font-bold tracking-wider uppercase text-teal-950/80 mb-2 ml-1">Your Size Preference</label>
+            <div class="grid grid-cols-5 gap-2">
+              <button type="button" onclick="selectSize('XS')" class="size-btn py-2.5 rounded-xl bg-white/70 border border-teal-600/10 hover:border-teal-500 hover:bg-white text-xs font-bold text-teal-950 uppercase transition duration-150 shadow-sm">XS</button>
+              <button type="button" onclick="selectSize('S')" class="size-btn py-2.5 rounded-xl bg-white/70 border border-teal-600/10 hover:border-teal-500 hover:bg-white text-xs font-bold text-teal-950 uppercase transition duration-150 shadow-sm">S</button>
+              <button type="button" onclick="selectSize('M')" class="size-btn py-2.5 rounded-xl bg-white/70 border border-teal-600/10 hover:border-teal-500 hover:bg-white text-xs font-bold text-teal-950 uppercase transition duration-150 shadow-sm">M</button>
+              <button type="button" onclick="selectSize('L')" class="size-btn py-2.5 rounded-xl bg-white/70 border border-teal-600/10 hover:border-teal-500 hover:bg-white text-xs font-bold text-teal-950 uppercase transition duration-150 shadow-sm">L</button>
+              <button type="button" onclick="selectSize('XL')" class="size-btn py-2.5 rounded-xl bg-white/70 border border-teal-600/10 hover:border-teal-500 hover:bg-white text-xs font-bold text-teal-950 uppercase transition duration-150 shadow-sm">XL</button>
+            </div>
+            <input type="hidden" id="selected-size" value="">
+          </div>
+
+          <!-- Luxury-Styled Submit Action Button -->
+          <button type="submit" class="w-full bg-teal-800 hover:bg-teal-950 text-white active:scale-[0.99] transition-all font-semibold tracking-[0.15em] text-xs uppercase py-4 rounded-2xl shadow-lg shadow-teal-950/10 flex items-center justify-center gap-2 mt-5">
+            Secure Early Access Invitation
+            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </button>
+
+        </form>
+
+        <!-- Dynamic Success Dialogue Panel -->
+        <div id="success-message" class="hidden absolute inset-0 bg-white/98 flex flex-col items-center justify-center p-8 text-center transition-all z-20">
+          <div class="w-16 h-16 bg-pink-100 text-pink-600 rounded-full flex items-center justify-center mb-5 shadow-inner">
+            <i data-lucide="heart" class="w-7 h-7 fill-pink-600 text-pink-600"></i>
+          </div>
+          <h2 class="font-logo text-xl font-bold tracking-widest text-teal-950 uppercase mb-2">Welcome to the Club</h2>
+          <p class="text-slate-600 text-xs leading-relaxed max-w-xs mb-8">
+            Your space is officially reserved. We will reach out to you via WhatsApp as soon as the collection drops.
+          </p>
+          <button onclick="resetForm()" class="px-6 py-2.5 bg-teal-900 text-white rounded-full text-[10px] font-bold tracking-wider uppercase hover:bg-teal-950 transition shadow-md">
+            Register Another Guest
+          </button>
+        </div>
+
+      </div>
+
+      <!-- Live Notification Metric Banner -->
+      <div class="mt-4 flex justify-between items-center text-[10px] text-teal-950/60 font-medium px-4">
+        <span class="flex items-center gap-1">
+          <span class="w-1.5 h-1.5 rounded-full bg-teal-500 animate-pulse"></span>
+          Highly requested: 39 active visitors
+        </span>
+        <span>VIP Spaces Left: 108 / 500</span>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Admin Panel Database Dashboard Overlay -->
+  <div id="admin-panel" class="hidden fixed inset-0 bg-teal-950/80 backdrop-blur-md z-50 flex items-center justify-center p-4">
+    <div class="bg-white rounded-[2rem] w-full max-w-4xl max-h-[85vh] overflow-hidden flex flex-col shadow-2xl border border-teal-900/10">
+      
+      <!-- Panel Header -->
+      <div class="p-6 border-b border-slate-100 flex justify-between items-center bg-slate-50/80">
+        <div>
+          <h3 class="font-logo text-base font-bold tracking-widest text-teal-950 uppercase flex items-center gap-2">
+            <i data-lucide="shield-check" class="text-teal-600 w-5 h-5"></i>
+            Salt Muse Vault
+          </h3>
+          <p class="text-[10px] text-slate-500 font-medium mt-0.5">Customer leads are saved securely to your browser storage.</p>
+        </div>
+        <div class="flex items-center gap-2">
+          <button onclick="downloadCSV()" class="bg-teal-700 hover:bg-teal-800 text-white font-semibold text-xs px-4 py-2.5 rounded-xl flex items-center gap-1.5 transition shadow-sm">
+            <i data-lucide="download-cloud" class="w-4 h-4"></i>
+            Export to Excel
+          </button>
+          <button onclick="toggleAdminPanel()" class="text-slate-400 hover:text-slate-600 transition p-1.5">
+            <i data-lucide="x" class="w-5 h-5"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Admin Lead Sheet Table grid -->
+      <div class="p-6 flex-grow overflow-y-auto custom-scrollbar bg-white">
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-xs text-slate-700">
+            <thead>
+              <tr class="border-b border-slate-100 text-[10px] uppercase tracking-wider text-slate-400 font-bold bg-slate-50/50">
+                <th class="p-3">Customer Name</th>
+                <th class="p-3">Email Address</th>
+                <th class="p-3">WhatsApp Number</th>
+                <th class="p-3 text-center">Bikini Size</th>
+                <th class="p-3">Timestamp Stored</th>
+              </tr>
+            </thead>
+            <tbody id="admin-tbody" class="divide-y divide-slate-100">
+              <!-- JS Injected rows will go here -->
+            </tbody>
+          </table>
+          <div id="empty-state" class="hidden text-center py-16">
+            <i data-lucide="sparkles" class="w-10 h-10 text-slate-300 mx-auto mb-2"></i>
+            <p class="text-xs font-medium text-slate-400">Your list is empty. Share your page link on Instagram to gather signups!</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Bottom Copyright Footer -->
+  <footer class="w-full max-w-7xl mx-auto px-6 py-4 text-center text-[10px] text-teal-950/40 font-semibold z-10">
+    <p>© 2026 Salt Muse Swimwear. Made in India. For the ultimate island girls.</p>
+  </footer>
+
+  <!-- Script logic operations -->
+  <script>
+    // Initialize standard beautiful icons
+    lucide.createIcons();
+
+    // Toggle styling selection inside sizing grid
+    function selectSize(size) {
+      document.getElementById('selected-size').value = size;
+      const buttons = document.querySelectorAll('.size-btn');
+      buttons.forEach(btn => {
+        if (btn.innerText === size) {
+          btn.classList.add('bg-teal-800', 'text-white', 'border-teal-800');
+          btn.classList.remove('bg-white/70', 'text-teal-950');
+        } else {
+          btn.classList.remove('bg-teal-800', 'text-white', 'border-teal-800');
+          btn.classList.add('bg-white/70', 'text-teal-950');
+        }
+      });
+    }
+
+    // Capture registration pipelines
+    function handleSignup(event) {
+      event.preventDefault();
+
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const whatsapp = document.getElementById('whatsapp').value;
+      const size = document.getElementById('selected-size').value || "Not Declared";
+
+      const lead = {
+        name,
+        email,
+        whatsapp: '+91 ' + whatsapp,
+        size,
+        date: new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })
+      };
+
+      // Retrieve or start list arrays safely
+      let currentWaitlist = JSON.parse(localStorage.getItem('salt_muse_waitlist')) || [];
+      currentWaitlist.push(lead);
+      localStorage.setItem('salt_muse_waitlist', JSON.stringify(currentWaitlist));
+
+      // Show celebratory action
+      triggerConfetti();
+      document.getElementById('success-message').classList.remove('hidden');
+    }
+
+    // Clear and reset form input entries
+    function resetForm() {
+      document.getElementById('waitlist-form').reset();
+      document.getElementById('selected-size').value = "";
+      const buttons = document.querySelectorAll('.size-btn');
+      buttons.forEach(btn => {
+        btn.classList.remove('bg-teal-800', 'text-white', 'border-teal-800');
+        btn.classList.add('bg-white/70', 'text-teal-950');
+      });
+      document.getElementById('success-message').classList.add('hidden');
+    }
+
+    // Beautiful burst cascade confetti generator
+    function triggerConfetti() {
+      const duration = 1.8 * 1000;
+      const end = Date.now() + duration;
+
+      (function frame() {
+        confetti({ particleCount: 3, angle: 60, spread: 55, origin: { x: 0 }, colors: ['#499797', '#f472b6', '#eab308'] });
+        confetti({ particleCount: 3, angle: 120, spread: 55, origin: { x: 1 }, colors: ['#499797', '#f472b6', '#eab308'] });
+
+        if (Date.now() < end) {
+          requestAnimationFrame(frame);
+        }
+      }());
+    }
+
+    // Toggle secret admin list dashboard view
+    function toggleAdminPanel() {
+      const panel = document.getElementById('admin-panel');
+      const isHidden = panel.classList.contains('hidden');
+
+      if (isHidden) {
+        panel.classList.remove('hidden');
+        populateAdminTable();
+      } else {
+        panel.classList.add('hidden');
+      }
+    }
+
+    function populateAdminTable() {
+      const list = JSON.parse(localStorage.getItem('salt_muse_waitlist')) || [];
+      const tbody = document.getElementById('admin-tbody');
+      const emptyState = document.getElementById('empty-state');
+      
+      tbody.innerHTML = "";
+
+      if (list.length === 0) {
+        emptyState.classList.remove('hidden');
+        return;
+      } else {
+        emptyState.classList.add('hidden');
+      }
+
+      list.reverse().forEach(lead => {
+        const row = document.createElement('tr');
+        row.className = 'hover:bg-slate-50 transition';
+        row.innerHTML = `
+          <td class="p-3 font-semibold text-slate-900">${escapeHTML(lead.name)}</td>
+          <td class="p-3 text-slate-600">${escapeHTML(lead.email)}</td>
+          <td class="p-3 font-medium text-teal-700">${escapeHTML(lead.whatsapp)}</td>
+          <td class="p-3 text-center"><span class="px-2.5 py-0.5 bg-slate-100 rounded text-[9px] font-bold text-slate-700 uppercase">${escapeHTML(lead.size)}</span></td>
+          <td class="p-3 text-slate-400 font-mono text-[10px]">${escapeHTML(lead.date)}</td>
+        `;
+        tbody.appendChild(row);
+      });
+    }
+
+    // Safe Excel CSV downloading system
+    function downloadCSV() {
+      const list = JSON.parse(localStorage.getItem('salt_muse_waitlist')) || [];
+      if (list.length === 0) return;
+
+      let csvContent = "data:text/csv;charset=utf-8,Name,Email,WhatsApp,Size Preference,Date Joined\n";
+      
+      list.forEach(lead => {
+        csvContent += `"${lead.name.replace(/"/g, '""')}","${lead.email.replace(/"/g, '""')}","${lead.whatsapp}","${lead.size}","${lead.date}"\n`;
+      });
+
+      const encodedUri = encodeURI(csvContent);
+      const link = document.createElement("a");
+      link.setAttribute("href", encodedUri);
+      link.setAttribute("download", "salt_muse_waitlist.csv");
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+
+    function escapeHTML(str) {
+      return str.replace(/[&<>'"]/g, 
+        tag => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[tag] || tag)
+      );
+    }
+  </script>
+</body>
+</html>
